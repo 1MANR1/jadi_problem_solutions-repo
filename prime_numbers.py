@@ -13,10 +13,10 @@ def is_prime(num):
     return prime
 
 
-def numbers():
+def numbers(my_range):
     last_prime = 0
     count = 0
-    for j in range(1, 1000001):
+    for j in range(1, my_range):
         if is_prime(j):
             last_prime = j
             count += 1
@@ -25,4 +25,4 @@ def numbers():
         print(f"There are {count} prime numbers in the range.")
 
 
-numbers()
+numbers(1000001)
