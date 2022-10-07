@@ -25,4 +25,4 @@ def numbers(my_range):
         print(f"There are {count} prime numbers in the range.")
 
 
-numbers(1000001)
+numbers(100001)
